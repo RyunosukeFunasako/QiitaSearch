@@ -11,6 +11,8 @@
 		78E9D8422BCCFB54008DD22F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9D8412BCCFB54008DD22F /* ContentView.swift */; };
 		78E9D8442BCCFB55008DD22F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E9D8432BCCFB55008DD22F /* Assets.xcassets */; };
 		78E9D8472BCCFB55008DD22F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E9D8462BCCFB55008DD22F /* Preview Assets.xcassets */; };
+		78E9D84E2BCCFB96008DD22F /* QiitaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9D84D2BCCFB96008DD22F /* QiitaData.swift */; };
+		78E9D8502BCCFBAC008DD22F /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9D84F2BCCFBAC008DD22F /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		78E9D8412BCCFB54008DD22F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78E9D8432BCCFB55008DD22F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78E9D8462BCCFB55008DD22F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78E9D84D2BCCFB96008DD22F /* QiitaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaData.swift; sourceTree = "<group>"; };
+		78E9D84F2BCCFBAC008DD22F /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				78E9D83F2BCCFB54008DD22F /* QiitaSearchApp.swift */,
+				78E9D84D2BCCFB96008DD22F /* QiitaData.swift */,
+				78E9D84F2BCCFBAC008DD22F /* SafariView.swift */,
 				78E9D8412BCCFB54008DD22F /* ContentView.swift */,
 				78E9D8432BCCFB55008DD22F /* Assets.xcassets */,
 				78E9D8452BCCFB55008DD22F /* Preview Content */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E9D8502BCCFBAC008DD22F /* SafariView.swift in Sources */,
 				78E9D8422BCCFB54008DD22F /* ContentView.swift in Sources */,
+				78E9D84E2BCCFB96008DD22F /* QiitaData.swift in Sources */,
 				78E9D8402BCCFB54008DD22F /* QiitaSearchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
