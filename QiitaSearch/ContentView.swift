@@ -1,7 +1,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    var qiitaDataList = QiitaData()
+    @StateObject var qiitaDataList = QiitaData()
+//    var qiitaDataList = QiitaData()
     @State var inputText = ""
     @State var isShowSafari = false
     
