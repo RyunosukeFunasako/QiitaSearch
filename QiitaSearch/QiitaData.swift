@@ -117,7 +117,7 @@ class QiitaData: ObservableObject {
             return
         }
         
-        guard let req_url = URL(string: "https://qiita.com/api/v2/items?query=tag:\(keyword_encode)&page=1&per_page=10") else {
+        guard let req_url = URL(string: "https://qiita.com/api/v2/items?query=tag:\(keyword_encode)&page=1&per_page=30") else {
             return
         }
         
